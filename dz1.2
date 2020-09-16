@@ -1,0 +1,14 @@
+int main()
+{
+    setlocale(LC_ALL, "rus");
+    float x1, x2;
+    cout << "Введите два чсла: \n";
+    cin >> x1 >> x2;
+    cout << "Сумма:" << x1 + x2 << endl;
+    cout << "Разность:" << x1 - x2 << endl;
+    cout << "Произведение:" << x1 * x2 << endl;
+    if (x2 != 0)
+        cout << "Деление:" << x1 / x2;
+    else
+        cout << "Деление на ноль запрещено!";
+}
