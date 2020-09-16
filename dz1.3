@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "rus");
+	int b, c;
+	cout << "Введите два числа: \n";
+	cin >> b >> c;
+	if (b == 0)
+		cout << "x - любой";
+	else
+	{
+		if (c != 0)
+			cout << "Решение:" << -b / c;
+		else
+			cout << "Нет решений";
+	}
+	}
